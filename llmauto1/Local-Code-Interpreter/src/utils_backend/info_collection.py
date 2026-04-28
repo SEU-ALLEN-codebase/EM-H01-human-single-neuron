@@ -18,7 +18,7 @@ def init_logging():
 
 
 #Authorization: Bearer uid-sid1,uid-sid2,uid-sid3 ip搜索限制日100，多ip轮转
-refresh_token = '66dda89dec3b340a0ef71a6e-e5102ac1953e4affb6072511e3e03e2c' 
+refresh_token = 'YOUR-KEY' 
 #    api_url = 'https://stepfreeapi.shadow.cloudns.org/v1/chat/completions' 
 api_base ='https://metasofreeapi.shadow.cloudns.org/v1/chat/completions'
 def get_response_from_api(user_input): 
@@ -94,7 +94,7 @@ def process_info_theme(info_request):
 def get_keytheme(user_input,info_msg):
     openai.api_base = "https://api.openai.com/v1"
     #openai.api_key = get_config('API_KEY')
-    openai.api_key =  "sk-proj-asxX9MfDsQ5Fez0VtRDwT3BlbkFJ8J6bL1PfOOgtLUpTkcED"
+    openai.api_key =  "YOUR-KEY"
     #question = txt_prompt_process(question)
     model='gpt-4o'
     #model = config['model']['GPT-4o']['model_name']

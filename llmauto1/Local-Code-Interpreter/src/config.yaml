@@ -1,7 +1,7 @@
 API_TYPE: open_ai
 API_base: https://api.openai.com/v1
 API_VERSION: 
-API_KEY: sk-proj-asxX9MfDsQ5Fez0VtRDwT3BlbkFJ8J6bL1PfOOgtLUpTkcED
+API_KEY: YOUR-KEY
 model:
   GPT-3.5:
     model_name: gpt-3.5-turbo-0613
