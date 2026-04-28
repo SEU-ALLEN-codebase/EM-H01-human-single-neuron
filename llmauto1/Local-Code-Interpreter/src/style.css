@@ -1,0 +1,5 @@
+/* style.css */
+#generate_plan_btn, #generate_code_btn {
+    background-color: yellow;
+    color: black; /* 设置文字颜色 */
+}

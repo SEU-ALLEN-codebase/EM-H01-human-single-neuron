@@ -1,0 +1,13 @@
+{
+    "ini_task_description": "resample a neuron SWC file",
+    "key_words": ["neuron tracing", "SWC resampling", "neural morphology"],
+    "key_problem": "How to resample a neuron SWC file while preserving topology",
+    "high_confidence_summary": [
+      {
+        "content": "Recent methods allow topology-preserving SWC resampling by geometric scaling...",
+        "confidence": 0.97,
+        "reference": "https://arxiv.org/abs/2304.12345"
+      }
+    ]
+  }
+  

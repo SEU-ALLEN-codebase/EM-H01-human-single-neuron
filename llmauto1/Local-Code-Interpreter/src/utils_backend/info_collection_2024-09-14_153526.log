@@ -1,0 +1,7 @@
+2024-09-14 15:35:34 - root - INFO - soma detection in 3d tif images
+2024-09-14 15:35:34 - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-09-14 15:35:34 - openai - DEBUG - api_version=None data='{"model": "gpt-4o", "messages": [{"role": "user", "content": "task_request:soma detection in 3d tif imagesinfo_msg"}], "stream": true}' message='Post details'
+2024-09-14 15:35:34 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-09-14 15:35:34 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+2024-09-14 15:35:35 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-09-14 15:35:35 - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=82 request_id=req_8e79aa65a14d615b1dd49419d719b52b response_code=200

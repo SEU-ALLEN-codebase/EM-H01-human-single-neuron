@@ -1,0 +1,7 @@
+2024-09-14 15:38:23 - root - INFO - soma detection in 3d tif images
+2024-09-14 15:38:23 - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-09-14 15:38:23 - openai - DEBUG - api_version=None data='{"model": "gpt-4o", "messages": [{"role": "user", "content": "task_request:soma detection in 3d tif imagesYou are a scientist, according to the task you request, please analyze and provide the two themes you believe are the most necessary background knowledge that can serve as keywords for related information search. \\n            Return the answer in two short and concise sentences, using the format {info_request:{}}"}], "stream": true}' message='Post details'
+2024-09-14 15:38:23 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-09-14 15:38:23 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+2024-09-14 15:38:25 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-09-14 15:38:25 - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=90 request_id=req_42e26bb1dc7e2f22848b6635fd8b0cc9 response_code=200

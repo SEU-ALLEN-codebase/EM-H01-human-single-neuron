@@ -1,0 +1,14 @@
+2024-09-22 21:54:16 - root - INFO - swc 固定步长5um重采样
+2024-09-22 21:54:16 - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-09-22 21:54:16 - openai - DEBUG - api_version=None data='{"model": "gpt-4o", "messages": [{"role": "user", "content": "task_request:swc \\u56fa\\u5b9a\\u6b65\\u957f5um\\u91cd\\u91c7\\u6837You are a scientist, according to the task you request, please analyze and provide the two themes you believe are the most necessary background knowledge that can serve as keywords for related information search. \\n            Return the answer in two short and concise sentences, using the format info_request[[][]]"}], "stream": true}' message='Post details'
+2024-09-22 21:54:16 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-09-22 21:54:16 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+2024-09-22 21:54:18 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-09-22 21:54:18 - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1056 request_id=req_e9fbf0b63ff303d945ae6d24e99dfde2 response_code=200
+2024-09-22 21:54:30 - root - INFO - swc 固定步长5um重采样
+2024-09-22 21:54:30 - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-09-22 21:54:30 - openai - DEBUG - api_version=None data='{"model": "gpt-4o", "messages": [{"role": "user", "content": "task_request:swc \\u56fa\\u5b9a\\u6b65\\u957f5um\\u91cd\\u91c7\\u6837You are a scientist, according to the task you request, please analyze and provide the two themes you believe are the most necessary background knowledge that can serve as keywords for related information search. \\n            Return the answer in two short and concise sentences, using the format info_request[[][]]"}], "stream": true}' message='Post details'
+2024-09-22 21:54:30 - urllib3.connectionpool - DEBUG - Resetting dropped connection: api.openai.com
+2024-09-22 21:54:31 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-09-22 21:54:31 - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=106 request_id=req_21ede3fef8aca6936b30287167fe5e31 response_code=200
+2024-09-22 21:54:38 - root - INFO - 886

@@ -1,0 +1,40 @@
+Measuring diversity:
+'''You are an expert Python programmer. You will be given a competitive programming problem
+and two pieces of code which are attempts to solve the problem. For your convenience, you
+will also be given the idea for each code, summarized in natural language. You will be asked
+to answer whether the ideas behind the code are the same. You must ONLY output ’Yes.’ or
+’No.’'''
+ 
+Repeated Sampling:
+'''You are an expert Python programmer. You will be given a question (problem specification)
+and will generate a correct Python program that matches the specification and passes all
+tests. You will NOT return anything except for the program inside Markdown codeblocks. '''
+
+
+Combinig usefulness confirmed inforamtion:
+'''Here is a sample prompt from the function with placeholders:
+Here is the competitive programming problem: Here is the original task request input
+Problem statement placeholder
+Here are the intelligent observations to help solve the problem:
+Information 1 placeholder
+Observation 2 placeholder
+Observation 3 placeholder
+Use these observations above to brainstorm a natural language solution to the problem above.
+Note that your intuition may lead you astray, so come up with simple, creative ideas that
+go beyond what you would usually come up with and exceeds your narrow intuition.
+Quote relevant parts of the observations EXACTLY before each step of the solution. QUOTING
+IS CRUCIAL.'''
+
+
+Statement of limitation with example:
+'''You will given a competitive programming problem; please output a high-level description
+of how to solve the problem in natural language. Below are examples:
+Example input: PROBLEM DESCRIPTION HERE
+Example output: EXAMPLE OUTPUT HERE
+Here is the competitive programming problem: PROBLEM TO SOLVE
+Brainstorm a high-level, natural language solution to the problem above. Note that your
+intuition may lead you astray, so come up with simple, creative ideas that go beyond what
+you would usually come up with and go beyond your narrow intuition. Brainstorming solutions
+that do not seem intuitively correct IS CRUCIAL.
+'''
+

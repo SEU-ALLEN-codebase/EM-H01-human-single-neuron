@@ -1,0 +1,140 @@
+asyncio - DEBUG - Using selector: SelectSelector
+httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+httpx - DEBUG - load_verify_locations cafile='D:\\anaconda3\\envs\\llm\\Library\\ssl\\cacert.pem'
+urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7861
+urllib3.connectionpool - DEBUG - http://127.0.0.1:7861 "GET /startup-events HTTP/11" 200 5
+urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7861
+urllib3.connectionpool - DEBUG - http://127.0.0.1:7861 "HEAD / HTTP/11" 200 0
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): checkip.amazonaws.com:443
+urllib3.connectionpool - DEBUG - https://checkip.amazonaws.com:443 "GET / HTTP/11" 200 14
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.gradio.app:443
+urllib3.connectionpool - DEBUG - https://checkip.amazonaws.com:443 "GET / HTTP/11" 200 14
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.gradio.app:443
+urllib3.connectionpool - DEBUG - https://api.gradio.app:443 "GET /pkg-version HTTP/11" 200 21
+urllib3.connectionpool - DEBUG - https://api.gradio.app:443 "POST /gradio-initiated-analytics/ HTTP/11" 200 None
+httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=7861 local_address=None timeout=None socket_options=None
+httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002B216BB1730>
+httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - send_request_headers.complete
+httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - send_request_body.complete
+httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.10.
+matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+asyncio - DEBUG - Using selector: SelectSelector
+urllib3.connectionpool - DEBUG - https://api.gradio.app:443 "POST /gradio-launched-telemetry/ HTTP/11" 200 None
+traitlets - DEBUG - Instantiating kernel 'Python 3 (ipykernel)' with kernel provisioner: local-provisioner
+traitlets - DEBUG - Starting kernel: ['D:/anaconda3/envs/llm\\python.exe', '-m', 'ipykernel_launcher', '-f', 'C:\\Users\\SEU\\AppData\\Local\\Temp\\tmp58t8d63g.json']
+traitlets - DEBUG - Connecting to: tcp://127.0.0.1:15343
+traitlets - DEBUG - connecting iopub channel to tcp://127.0.0.1:15340
+traitlets - DEBUG - Connecting to: tcp://127.0.0.1:15340
+traitlets - DEBUG - connecting shell channel to tcp://127.0.0.1:15338
+traitlets - DEBUG - Connecting to: tcp://127.0.0.1:15338
+traitlets - DEBUG - connecting stdin channel to tcp://127.0.0.1:15341
+traitlets - DEBUG - Connecting to: tcp://127.0.0.1:15341
+traitlets - DEBUG - connecting heartbeat channel to tcp://127.0.0.1:15342
+asyncio - DEBUG - Using selector: SelectSelector
+traitlets - DEBUG - connecting control channel to tcp://127.0.0.1:15343
+traitlets - DEBUG - Connecting to: tcp://127.0.0.1:15343
+matplotlib.pyplot - DEBUG - Loaded backend QtAgg version 5.15.10.
+httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Sun, 25 Aug 2024 12:13:04 GMT'), (b'server', b'uvicorn'), (b'content-length', b'101'), (b'content-type', b'application/json')])
+httpx - INFO - HTTP Request: POST http://127.0.0.1:7861/api/predict "HTTP/1.1 200 OK"
+httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - receive_response_body.complete
+httpcore.http11 - DEBUG - response_closed.started
+httpcore.http11 - DEBUG - response_closed.complete
+httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - send_request_headers.complete
+httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - send_request_body.complete
+httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Sun, 25 Aug 2024 12:13:06 GMT'), (b'server', b'uvicorn'), (b'content-length', b'16'), (b'content-type', b'application/json')])
+httpx - INFO - HTTP Request: POST http://127.0.0.1:7861/reset "HTTP/1.1 200 OK"
+httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - receive_response_body.complete
+httpcore.http11 - DEBUG - response_closed.started
+httpcore.http11 - DEBUG - response_closed.complete
+matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+root - INFO - Received user input: hello
+root - INFO - User input processed successfully
+matplotlib.pyplot - DEBUG - Loaded backend QtAgg version 5.15.10.
+matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+matplotlib.pyplot - DEBUG - Loaded backend QtAgg version 5.15.10.
+httpcore.connection - DEBUG - close.started
+httpcore.connection - DEBUG - close.complete
+httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=7861 local_address=None timeout=None socket_options=None
+httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002B2194E0C40>
+httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - send_request_headers.complete
+httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - send_request_body.complete
+httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+matplotlib.pyplot - DEBUG - Loaded backend QtAgg version 5.15.10.
+httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 500, b'Internal Server Error', [(b'date', b'Sun, 25 Aug 2024 12:13:15 GMT'), (b'server', b'uvicorn'), (b'content-length', b'14'), (b'content-type', b'application/json')])
+httpx - INFO - HTTP Request: POST http://127.0.0.1:7861/api/predict "HTTP/1.1 500 Internal Server Error"
+httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - receive_response_body.complete
+httpcore.http11 - DEBUG - response_closed.started
+httpcore.http11 - DEBUG - response_closed.complete
+httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - send_request_headers.complete
+httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - send_request_body.complete
+httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Sun, 25 Aug 2024 12:13:15 GMT'), (b'server', b'uvicorn'), (b'content-length', b'16'), (b'content-type', b'application/json')])
+httpx - INFO - HTTP Request: POST http://127.0.0.1:7861/reset "HTTP/1.1 200 OK"
+httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - receive_response_body.complete
+httpcore.http11 - DEBUG - response_closed.started
+httpcore.http11 - DEBUG - response_closed.complete
+matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+matplotlib.pyplot - DEBUG - Loaded backend QtAgg version 5.15.10.
+httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - send_request_headers.complete
+httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - send_request_body.complete
+httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+matplotlib.pyplot - DEBUG - Loaded backend QtAgg version 5.15.10.
+httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Sun, 25 Aug 2024 12:13:16 GMT'), (b'server', b'uvicorn'), (b'content-length', b'73'), (b'content-type', b'application/json')])
+httpx - INFO - HTTP Request: POST http://127.0.0.1:7861/api/predict "HTTP/1.1 200 OK"
+httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - receive_response_body.complete
+httpcore.http11 - DEBUG - response_closed.started
+httpcore.http11 - DEBUG - response_closed.complete
+httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - send_request_headers.complete
+httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - send_request_body.complete
+httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Sun, 25 Aug 2024 12:13:16 GMT'), (b'server', b'uvicorn'), (b'content-length', b'16'), (b'content-type', b'application/json')])
+httpx - INFO - HTTP Request: POST http://127.0.0.1:7861/reset "HTTP/1.1 200 OK"
+httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - receive_response_body.complete
+httpcore.http11 - DEBUG - response_closed.started
+httpcore.http11 - DEBUG - response_closed.complete
+httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - send_request_headers.complete
+httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - send_request_body.complete
+httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+matplotlib.pyplot - DEBUG - Loaded backend QtAgg version 5.15.10.
+httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 500, b'Internal Server Error', [(b'date', b'Sun, 25 Aug 2024 12:13:16 GMT'), (b'server', b'uvicorn'), (b'content-length', b'14'), (b'content-type', b'application/json')])
+httpx - INFO - HTTP Request: POST http://127.0.0.1:7861/api/predict "HTTP/1.1 500 Internal Server Error"
+httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - receive_response_body.complete
+httpcore.http11 - DEBUG - response_closed.started
+httpcore.http11 - DEBUG - response_closed.complete
+httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - send_request_headers.complete
+httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - send_request_body.complete
+httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Sun, 25 Aug 2024 12:13:16 GMT'), (b'server', b'uvicorn'), (b'content-length', b'16'), (b'content-type', b'application/json')])
+httpx - INFO - HTTP Request: POST http://127.0.0.1:7861/reset "HTTP/1.1 200 OK"
+httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+httpcore.http11 - DEBUG - receive_response_body.complete
+httpcore.http11 - DEBUG - response_closed.started
+httpcore.http11 - DEBUG - response_closed.complete

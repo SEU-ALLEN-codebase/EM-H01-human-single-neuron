@@ -1,0 +1,11 @@
+2025-05-21 16:36:20 - root - INFO - swc是什么
+2025-05-21 16:36:20 - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2025-05-21 16:36:20 - openai - DEBUG - api_version=None data='{"model": "gpt-4o", "messages": [{"role": "user", "content": "task_request:swc\\u662f\\u4ec0\\u4e48As a scientist, based on the previous task, analyze and identify the two key themes necessary for solving the request. These themes will guide related information searches for generating a solution plan. \\nProvide the answer in two concise sentences using the format info_request[[][]]."}], "stream": true}' message='Post details'
+2025-05-21 16:36:20 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-05-21 16:36:20 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+2025-05-21 16:37:02 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2025-05-21 16:37:02 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000259B82CBB80>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。')': /v1/chat/completions
+2025-05-21 16:37:02 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): api.openai.com:443
+2025-05-21 16:37:44 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-21 16:37:44 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000259B82CBD30>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。')': /v1/chat/completions
+2025-05-21 16:37:44 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (3): api.openai.com:443

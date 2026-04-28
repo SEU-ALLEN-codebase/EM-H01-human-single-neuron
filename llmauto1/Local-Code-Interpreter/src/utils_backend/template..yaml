@@ -1,0 +1,36 @@
+user_input = '''
+You are a task-solving planner.
+
+Your goal is to generate a structured and executable task plan based on the following input:
+
+【User Task Description】
+{ori_user_input}
+
+【Reference Context (if available)】
+{reference_info}
+
+Please organize your response into **four clearly separated sections**, 
+using bullet points for each item. Do not write actual code; focus on logic, structure, and reasoning.
+
+---
+
+1. **Task Objectives and Functional Requirements**
+   - Summarize the overall purpose of the task.
+   - Clarify the core functionality and expected results.
+
+2. **Step-by-Step Implementation Plan**
+   - Break the task into concrete, sequential steps.
+   - For each step, explain the algorithm, data structures, or methods required.
+
+3. **Constraints and Considerations**
+   - List any constraints (e.g., input format, time complexity, accuracy).
+   - Include environmental, hardware, or domain-specific assumptions.
+
+4. **Referenced Knowledge Used**
+   - Point out which pieces of information from the provided reference were used to support your plan.
+   - Include any key facts, formulas, or definitions that were essential.
+
+---
+
+Return your output in a bullet-point format. Ensure clarity and logical consistency. No additional commentary is needed.
+'''

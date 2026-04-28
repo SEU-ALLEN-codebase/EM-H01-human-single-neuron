@@ -1,0 +1,11 @@
+2024-09-14 15:29:16 - root - INFO - soma detection in 3d tif somaregion image
+2024-09-14 15:29:16 - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-09-14 15:29:16 - openai - DEBUG - api_version=None data='{"model": "gpt-4o", "messages": [{"role": "user", "content": "task_request:soma detection in 3d tif somaregion imageinfo_msg"}], "stream": true}' message='Post details'
+2024-09-14 15:29:16 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-09-14 15:29:16 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+2024-09-14 15:29:37 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2024-09-14 15:29:37 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DA0580EDC0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。')': /v1/chat/completions
+2024-09-14 15:29:37 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): api.openai.com:443
+2024-09-14 15:29:58 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2024-09-14 15:29:58 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DA0580EFD0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。')': /v1/chat/completions
+2024-09-14 15:29:58 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (3): api.openai.com:443
